@@ -1,0 +1,27 @@
+{
+  "name": "gwit",
+  "version": "0.1.0",
+  "description": "A cool tool to enforce a nice git feature flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "ts-node ./src/gwit.ts"
+  },
+  "bin": {
+    "gwit": "./src/gwit.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@caporal/core": "^2.0.2",
+    "@inquirer/confirm": "^0.0.12-alpha.0",
+    "inquirer": "^7.3.3",
+    "simple-git": "^2.29.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
